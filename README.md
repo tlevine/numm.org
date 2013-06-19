@@ -1,33 +1,20 @@
-# Middleman Template with Haml, Sass & Coffeescript
+numm.org
+====
 
-**middleman-hamlsasscoffee** is a [Middleman 3.x](http://middlemanapp.com/) project template with [Compass](http://compass-style.org)/[SASS](http://sass-lang.com/), [HAML](http://haml-lang.com/) and [Coffeescript](http://coffeescript.org). As with all Middleman templates, using [Bundler](http://gembundler.com/) and [Rbenv](https://github.com/sstephenson/rbenv/) is recommended.
+## Running
 
-###Features###
-* Optimized asset structure
-* Conditional IE html tags
-* Viewport meta setup for iOS and Android
-* Favicon and app icons
-* Dynamic title attribute body class via YAML front-matter
+    bundle install
+    bundle exec middleman build
+    bundle exec middleman server
 
-###Includes###
-* Modernizr 2.6.2 via cdnjs.com
-* jQuery 1.9.1 via cdnjs.com
-* Google Analytics (async)
+## Components
+This is framed on
+[middleman-hamlsasscoffee](https://github.com/pixelsonly/middleman-hamlsasscoffee).
 
-### Installation ###
- 
-1. Clone **middleman-hamlsasscoffee** into `~/.middleman`. You will need to create this directory if it doesn't exist.
-   `$ git clone git://github.com/pixelsonly/middleman-hamlsasscoffee.git ~/.middleman/middleman-hamlsasscoffee`'
-2. Initialize middleman on a new or existing folder `$ middleman init path_to_project --template=middleman-hamlsasscoffee`
-
-
-For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/) or feel free to hit me up on [Twitter](http://twitter.com/pixelsonly).
-
----
 
 ##### LICENSE #####
 
-Copyright (c) 2013 Ryan Lindsey
+Copyright (c) 2013 Ryan Lindsey, Thomas Levine
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
